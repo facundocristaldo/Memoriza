@@ -1,13 +1,41 @@
 .homeBackgroundImg {
+  float: right;
+  right: 10%;
+  width: 50vw;
+  max-width: 300px;
+  position: fixed;
+  top: 2em;
 }
 
 .maincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
 }
 .appTitle {
+  font-size: 3em;
+  font-size: clamp(20px, 13vw, 7em);
+  font-family: nunito;
+  font-weight: bold;
 }
 
 .buttonsContainer {
+  margin-top: 6em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3em;
 }
 
-.homeIcon {
+.flatIcon {
+  background: none;
+  border: none;
+  outline: none;
+}
+.small {
+  width: 3em;
 }

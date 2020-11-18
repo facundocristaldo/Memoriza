@@ -1,0 +1,14 @@
+.headerTitle {
+  font-size: 2em;
+  font-family: nunito;
+  display: inline;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  text-align: center;
+  margin: 0;
+  z-index: -1;
+}
+.headerNav {
+  padding: 2em;
+}

@@ -1,0 +1,68 @@
+.configContainer {
+}
+
+.configGroupContainer {
+}
+.configDeleteBtn {
+}
+.configDeleteBtn img {
+}
+
+.redborder {
+  transition: border-color 250ms ease-out;
+  border-color: red !important;
+}
+
+.configModalNewGroup {
+  position: fixed;
+  width: 80%;
+  max-width: 400px;
+  background-color: #daf7dc;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 2vh 3vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  animation: appear 200ms;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.modalInput {
+  padding: 0.6em;
+  font-size: 1.1em;
+  outline: none;
+  border-radius: 6px;
+  border: 0.1px solid #dedede;
+}
+.modalButtonContainer {
+  margin-top: 1em;
+}
+.modalBtn {
+  width: 40%;
+  margin: 0 5%;
+  font-size: 1.06em;
+  border: none;
+  box-shadow: 1px 1px 5px #00000020;
+  padding: 0.3em;
+  font-family: nunito;
+}
+
+.modalBtn.cancel {
+  background: #eaeaea;
+}
+
+.modalBtn.confirm {
+  background: #1ec104;
+  color: white;
+  font-weight: bold;
+}
