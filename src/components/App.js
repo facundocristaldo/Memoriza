@@ -9,7 +9,7 @@ import PlayScreen from './play/PlayScreen';
 export default class App extends React.Component {
 
   state = {
-    screen: 'config' //starting point
+    screen: 'home' //starting point
   }
 
 
