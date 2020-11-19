@@ -1,11 +1,40 @@
 .configContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  text-align: center;
+  align-items: center;
+}
+.configGroupContainer {
+  margin: 0.5em;
+  border: 0.5px solid #23ff00;
+  padding: 0.5em;
+  height: 80%;
+  min-height: 8em;
+  border-radius: 1.2em;
+}
+.configGroupContainer h3 {
+  width: 100%;
+  height: calc(100% - 2.2em);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: anywhere;
 }
 
-.configGroupContainer {
+.configGroupContainer h3.newGroup {
+  height: calc(100%);
 }
 .configDeleteBtn {
+  background: none;
+  border: none;
+  float: right;
+  width: 2.2em;
 }
 .configDeleteBtn img {
+  width: 100%;
 }
 
 .redborder {
@@ -66,3 +95,45 @@
   color: white;
   font-weight: bold;
 }
+
+.configGroupTitle {
+  margin: 0.5em 0.3em;
+  font-size: 1.5em;
+  font-size: clamp(1.4em, 5vw, 3em);
+  font-family: montserrat;
+}
+
+.configCardContainer {
+  background-color: #c3ffc1;
+  padding: 0.5em;
+  display: flex;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+.configCardContainer h5 {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #444;
+}
+.deleteCardItem {
+  background: none;
+  border: none;
+}
+.deleteCardItem img {
+  width: 80%;
+}
+/* .inputsArea {
+} */
+.inputSide1,
+.inputSide2 {
+  width: 95%;
+  min-height: 3em;
+  padding: 0.5em;
+  border-color: #cecece;
+  border-radius: 10px;
+}
+/* .inputSide1 {
+}
+.inputSide2 {
+} */
